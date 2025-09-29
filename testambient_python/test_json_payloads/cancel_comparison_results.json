@@ -1,0 +1,49 @@
+{
+  "single_cancel": {
+    "status": "ok",
+    "response": {
+      "status": "ok",
+      "data": {
+        "type": "cancel",
+        "oid": 1759177202,
+        "cloid": null,
+        "filled": {
+          "totalSz": "0",
+          "avgPx": "0"
+        }
+      },
+      "tx": "3F7vwcQgvizhDhLJcDSSyU2AVq52YfvQivkKygVJ7u7LNvoWNikwrT4vbVyySmTVshWDSLQT7betiDuzvTprGwMU"
+    }
+  },
+  "batch_cancel": {
+    "status": "ok",
+    "response": [
+      {
+        "status": "ok",
+        "data": {
+          "type": "cancel",
+          "oid": 1759177203,
+          "cloid": null,
+          "filled": {
+            "totalSz": "0",
+            "avgPx": "0"
+          }
+        },
+        "tx": "XnPvYdWPv4xqLZjpJvLbbqsnWFQNSatHtrTPrzytXTqd6byggnumU6wAxD62V69aogH79axj8d7eZfjizUS5S47"
+      },
+      {
+        "status": "ok",
+        "data": {
+          "type": "cancel",
+          "oid": 1759177204,
+          "cloid": null,
+          "filled": {
+            "totalSz": "0",
+            "avgPx": "0"
+          }
+        },
+        "tx": "5rhyhU7ZnFUuuLW89V7EwHKnePZN6VwCqoTabzRSzgbrHpgN7cvcAC9oXWfVtczGB9RMrpoEQM1Ydnzac7YQsitP"
+      }
+    ]
+  }
+}
