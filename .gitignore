@@ -1,6 +1,15 @@
 # Dependencies
 node_modules/
 
+.idea
+.idea*
+
+__pycache__
+__pycache__*
+
+venv
+venv/
+
 # Build output
 dist/
 
