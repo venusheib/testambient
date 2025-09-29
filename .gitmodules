@@ -1,0 +1,3 @@
+[submodule "testambient_python/ambient-ember-sdk"]
+	path = testambient_python/ambient-ember-sdk
+	url = https://github.com/CrocSwap/ambient-ember-sdk.git
