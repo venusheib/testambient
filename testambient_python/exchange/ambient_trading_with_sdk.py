@@ -17,8 +17,8 @@ from dataclasses import dataclass
 
 # API Configuration
 AMBIENT_URL = "https://embindexer.net/ember/api/dev/v1"
-SDK_PATH = "ambient-ember-sdk"
-DEVKEY_PATH = "devkey.json"
+SDK_PATH = "../ambient-ember-sdk"
+DEVKEY_PATH = "../devkey.json"
 
 
 @dataclass

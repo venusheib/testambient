@@ -1,0 +1,14 @@
+/Users/home/Desktop/testambient/testambient_python/ambient_signer/target/release/deps/libserde-35da6dc5a32861b0.rmeta: /Users/home/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde-1.0.228/src/lib.rs /Users/home/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde-1.0.228/src/integer128.rs /Users/home/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde-1.0.228/src/private/mod.rs /Users/home/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde-1.0.228/src/private/de.rs /Users/home/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde-1.0.228/src/private/ser.rs /Users/home/Desktop/testambient/testambient_python/ambient_signer/target/release/build/serde-7a4719d617eca1e9/out/private.rs
+
+/Users/home/Desktop/testambient/testambient_python/ambient_signer/target/release/deps/libserde-35da6dc5a32861b0.rlib: /Users/home/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde-1.0.228/src/lib.rs /Users/home/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde-1.0.228/src/integer128.rs /Users/home/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde-1.0.228/src/private/mod.rs /Users/home/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde-1.0.228/src/private/de.rs /Users/home/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde-1.0.228/src/private/ser.rs /Users/home/Desktop/testambient/testambient_python/ambient_signer/target/release/build/serde-7a4719d617eca1e9/out/private.rs
+
+/Users/home/Desktop/testambient/testambient_python/ambient_signer/target/release/deps/serde-35da6dc5a32861b0.d: /Users/home/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde-1.0.228/src/lib.rs /Users/home/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde-1.0.228/src/integer128.rs /Users/home/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde-1.0.228/src/private/mod.rs /Users/home/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde-1.0.228/src/private/de.rs /Users/home/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde-1.0.228/src/private/ser.rs /Users/home/Desktop/testambient/testambient_python/ambient_signer/target/release/build/serde-7a4719d617eca1e9/out/private.rs
+
+/Users/home/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde-1.0.228/src/lib.rs:
+/Users/home/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde-1.0.228/src/integer128.rs:
+/Users/home/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde-1.0.228/src/private/mod.rs:
+/Users/home/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde-1.0.228/src/private/de.rs:
+/Users/home/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde-1.0.228/src/private/ser.rs:
+/Users/home/Desktop/testambient/testambient_python/ambient_signer/target/release/build/serde-7a4719d617eca1e9/out/private.rs:
+
+# env-dep:OUT_DIR=/Users/home/Desktop/testambient/testambient_python/ambient_signer/target/release/build/serde-7a4719d617eca1e9/out
