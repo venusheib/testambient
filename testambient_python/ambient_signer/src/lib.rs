@@ -1,6 +1,6 @@
 use pyo3::prelude::*;
 use borsh::{BorshDeserialize, BorshSerialize, to_vec};
-use ed25519_dalek::{Keypair, Signer, PublicKey, SecretKey};
+use ed25519_dalek::{Keypair, Signer};
 
 /// Time in Force order types
 #[derive(BorshSerialize, BorshDeserialize, Debug, Clone, PartialEq)]
@@ -218,15 +218,9 @@ impl AmbientSigner {
                 "Private key must be 64 bytes"
             ));
         }
-        
-        let mut secret_bytes = [0u8; 32];
-        secret_bytes.copy_from_slice(&private_key_bytes[..32]);
-        
-        let secret_key = SecretKey::from_bytes(&secret_bytes)
-            .map_err(|e| pyo3::exceptions::PyValueError::new_err(format!("Invalid secret key: {}", e)))?;
-        
-        let public_key = PublicKey::from(&secret_key);
-        let keypair = Keypair { secret: secret_key, public: public_key };
+
+        let keypair = Keypair::from_bytes(&private_key_bytes)
+            .map_err(|e| pyo3::exceptions::PyValueError::new_err(format!("Invalid private key: {}", e)))?;
         
         Ok(AmbientSigner { keypair })
     }

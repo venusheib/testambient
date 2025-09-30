@@ -4,14 +4,24 @@ build-backend = "maturin"
 
 [project]
 name = "ambient-signer"
-requires-python = ">=3.8"
+version = "0.1.0"
+requires-python = ">=3.12"
 classifiers = [
     "Programming Language :: Rust",
     "Programming Language :: Python :: Implementation :: CPython",
     "Programming Language :: Python :: Implementation :: PyPy",
 ]
-dependencies = []
+dependencies = [
+    "requests==2.32.5",
+]
 
 [tool.maturin]
 features = ["pyo3/extension-module"]
 module-name = "ambient_signer"
+manifest-path = "ambient_signer/Cargo.toml"
+
+[dependency-groups]
+dev = [
+    "ipython>=9.6.0",
+    "maturin>=1.9.4",
+]
